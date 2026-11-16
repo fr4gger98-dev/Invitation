@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sambhar Lake Trip Invitation</title>
+<style>
+  :root {
+    --sun: #f5b700;
+    --sun-deep: #e09f00;
+    --seed: #4a2c12;
+    --leaf: #4f7a3a;
+    --petal: #ffffff;
+    --bg: #fffdf5;
+    --ink: #2d2a1f;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.7;
+  }
+  header {
+    position: relative;
+    overflow: hidden;
+    background: var(--sun);
+    text-align: center;
+    padding: 4.5rem 1.5rem 3.5rem;
+    color: var(--seed);
+  }
+  header h1 { font-size: clamp(2rem, 6vw, 3.4rem); font-weight: normal; position: relative; }
+  header p { margin-top: 0.7rem; font-size: 1.15rem; position: relative; }
+  .deco { position: absolute; }
+  .deco.sf1 { width: 150px; left: -35px; top: -35px; }
+  .deco.sf2 { width: 110px; right: 6%; bottom: -30px; }
+  .deco.rose1 { width: 80px; right: 4%; top: 14px; }
+  .deco.rose2 { width: 62px; left: 9%; bottom: 8px; }
+  .bouquet { text-align: center; padding: 1.2rem 0 0; }
+  .bouquet svg { width: 54px; height: 54px; margin: 0 6px; }
+  main { max-width: 640px; margin: 0 auto; padding: 1.5rem 1.5rem 3rem; }
+  h2 { font-size: 1.4rem; margin-bottom: 0.5rem; color: var(--leaf); }
+  section { margin-bottom: 2rem; }
+  .details {
+    background: #fff;
+    border: 2px solid var(--sun);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+  }
+  .details dt { font-weight: bold; color: var(--seed); }
+  .details dd { margin-bottom: 0.6rem; }
+  a.btn {
+    display: inline-block;
+    background: var(--sun);
+    color: var(--seed);
+    font-weight: bold;
+    padding: 0.8rem 1.8rem;
+    border-radius: 999px;
+    text-decoration: none;
+  }
+  a.btn:hover, a.btn:focus-visible { background: var(--leaf); color: #fff; }
+  footer { text-align: center; padding: 1.5rem; font-size: 0.9rem; color: #7a735c; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="sunflower" viewBox="0 0 100 100">
+      <g fill="#f5b700" stroke="#c98a00" stroke-width="0.8">
+        <ellipse cx="50" cy="18" rx="7" ry="16"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(30 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(60 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(90 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(120 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(150 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(180 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(210 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(240 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(270 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(300 50 50)"/>
+        <ellipse cx="50" cy="18" rx="7" ry="16" transform="rotate(330 50 50)"/>
+      </g>
+      <circle cx="50" cy="50" r="17" fill="#4a2c12"/>
+      <circle cx="50" cy="50" r="10" fill="#6b4220"/>
+    </symbol>
+    <symbol id="rose" viewBox="0 0 100 100">
+      <g fill="#fff" stroke="#c9c9c0" stroke-width="1.2">
+        <circle cx="50" cy="50" r="44"/>
+        <circle cx="50" cy="50" r="33"/>
+        <circle cx="50" cy="50" r="23"/>
+        <circle cx="50" cy="50" r="13"/>
+      </g>
+      <path d="M50 50 m-6 0 a6 6 0 1 1 6 6" fill="none" stroke="#c9c9c0" stroke-width="1.5"/>
+      <path d="M20 30 q10 -14 30 -12 M80 70 q-10 14 -30 12" fill="none" stroke="#c9c9c0" stroke-width="1.2"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header>
+  <svg class="deco sf1" aria-hidden="true"><use href="#sunflower"/></svg>
+  <svg class="deco rose1" aria-hidden="true"><use href="#rose"/></svg>
+  <svg class="deco sf2" aria-hidden="true"><use href="#sunflower"/></svg>
+  <svg class="deco rose2" aria-hidden="true"><use href="#rose"/></svg>
+  <h1>You’re invited to Sambhar Lake</h1>
+  <p>A day among salt flats, flamingos and golden sunsets</p>
+</header>
+
+<div class="bouquet" aria-hidden="true">
+  <svg><use href="#rose"/></svg><svg><use href="#sunflower"/></svg><svg><use href="#rose"/></svg>
+</div>
+
+<main>
+  <section>
+    <h2>Dear Miss Ayushi Sharma,</h2>
+    <p>We would be delighted to have you join us on a day trip to Sambhar Salt Lake, Rajasthan. December is the best season to visit, with pleasant weather and migratory flamingos along the lake.</p>
+  </section>
+
+  <section class="details">
+    <dl>
+      <dt>Date</dt>
+      <dd>Mid-December 2026 (to be confirmed)</dd>
+      <dt>Departure</dt>
+      <dd>[Time] from [Meeting point]</dd>
+      <dt>Return</dt>
+      <dd>[Approx. time]</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Please let us know</h2>
+    <p>Kindly confirm your availability by [RSVP date] so we can finalise the arrangements.</p>
+    <p style="margin-top:1rem"><a class="btn" href="mailto:your-email@example.com?subject=Sambhar%20Lake%20Trip%20RSVP">Confirm attendance</a></p>
+  </section>
+
+  <p>With warm regards,<br>[Your Name]</p>
+</main>
+
+<footer>Sambhar Lake trip, December 2026</footer>
+</body>
+</html>
